@@ -1,2 +1,37 @@
 # OpenRoad_Tutorial
 This repository aims to cover OpenRoad tutorial.
+
+#### Clone and Install Dependencies
+
+```
+git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
+cd OpenROAD-flow-scripts
+sudo ./setup.sh
+```
+#### Build
+
+```
+./build_openroad.sh --local
+```
+
+#### Verify Installation
+
+```
+source ./env.sh
+yosys -help
+openroad -help
+cd flow
+make
+```
+#### Example
+```
+make DESIGN_CONFIG=./designs/gf180/fa/config.mk
+make DESIGN_CONFIG=./designs/gf180/fa/config.mk clean_all
+make DESIGN_CONFIG=./designs/gf180/fa/config.mk gui_final
+```
+
+#### check this example
+
+https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/blob/master/flow/designs/asap7/mock-array/config.mk
+
+https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/blob/master/flow/designs/asap7/mock-array/io.tcl
