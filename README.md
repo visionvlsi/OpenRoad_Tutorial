@@ -30,7 +30,7 @@ make DESIGN_CONFIG=./designs/gf180/fa/config.mk clean_all
 make DESIGN_CONFIG=./designs/gf180/fa/config.mk gui_final
 ```
 
-#### check this example
+#### check this example to know about configuration files
 
 https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/blob/master/flow/designs/asap7/mock-array/config.mk
 
