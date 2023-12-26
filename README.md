@@ -46,3 +46,6 @@ make DESIGN_CONFIG=./designs/gf180/fa/config.mk gui_final
 https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/blob/master/flow/designs/asap7/mock-array/config.mk
 
 https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/blob/master/flow/designs/asap7/mock-array/io.tcl
+
+#### Read for more
+https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/blob/master/docs/tutorials/FlowTutorial.md
