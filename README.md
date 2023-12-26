@@ -31,6 +31,9 @@ You can view final layout images in OpenROAD GUI using this command.
 
 make gui_final
 ```
+#### Adding your own design
+[watch this](https://github.com/visionvlsi/OpenRoad_Tutorial/blob/main/AddingNewDesign.md)
+
 #### Example
 ```
 make DESIGN_CONFIG=./designs/gf180/fa/config.mk
