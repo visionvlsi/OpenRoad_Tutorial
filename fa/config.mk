@@ -10,7 +10,4 @@ export IO_CONSTRAINTS        = ./designs/$(PLATFORM)/$(DESIGN_NICKNAME)/io.tcl
 export CORE_UTILIZATION = 1
 export PLACE_DENSITY    = 0.05
 
-#export IO_PLACER_V = 1
-#export IO_PLACER_H = 1
-
 export TNS_END_PERCENT  = 100
